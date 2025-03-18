@@ -1,0 +1,31 @@
+_id: req_da27ec83c17947d48b2b6dd44f054e26
+type: Request
+parentId: wrk_89a942396485450ba9443df531b3823d
+modified: 1742332922709
+created: 1706814317548
+url: https://localhost:44447/api/eskort/productivity-data
+name: TestApiConnectIntegrations
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+    id: pair_ae853ed03bf64df2b82633be44ab7000
+authentication:
+  type: oauth2
+  grantType: client_credentials
+  accessTokenUrl: https://iserve.invensys.web.za/connect/token
+  clientId: "{{ _.client_id }}"
+  clientSecret: "{{ _.client_secret }}"
+  scope: integraflow.integration
+  credentialsInBody: true
+metaSortKey: -1693422915872
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

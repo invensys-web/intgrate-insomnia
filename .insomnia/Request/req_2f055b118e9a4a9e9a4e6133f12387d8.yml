@@ -1,0 +1,47 @@
+_id: req_2f055b118e9a4a9e9a4e6133f12387d8
+type: Request
+parentId: wrk_89a942396485450ba9443df531b3823d
+modified: 1742332949922
+created: 1741845402685
+url: https://localhost:5002/connect/token
+name: Token Local Iserve
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: '   "": "clientsecret"}'
+      value: ""
+      id: pair_40805d60d6aa49a9979093be1c2181f7
+      disabled: true
+    - id: pair_c36f6ba91b584dc0863af027d42ee655
+      name: grant_type
+      value: client_credentials
+      description: ""
+    - id: pair_d097230720204ddfbb68e4fafbedc7ca
+      name: scope
+      value: integraflow.integration
+      description: ""
+    - id: pair_70c5ab978e594e4699ec9e30720c950a
+      name: client_id
+      value: ""
+      description: ""
+    - id: pair_6b639f43e0c04eac97f7e0e7852cf025
+      name: client_secret
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693428503387
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

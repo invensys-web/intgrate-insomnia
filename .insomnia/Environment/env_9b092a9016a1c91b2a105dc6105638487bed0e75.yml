@@ -1,0 +1,16 @@
+_id: env_9b092a9016a1c91b2a105dc6105638487bed0e75
+type: Environment
+parentId: wrk_89a942396485450ba9443df531b3823d
+modified: 1742332523266
+created: 1742330395523
+name: Base Environment
+data:
+  client_id: e84bcee0-6026-462e-8fc0-34cd6955dc47
+  client_secret: 5ee77b3f-2d0b-4458-bd91-4d363dc86297
+dataPropertyOrder:
+  "&":
+    - client_id
+    - client_secret
+color: null
+isPrivate: false
+metaSortKey: 1742330395523
