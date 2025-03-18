@@ -1,7 +1,7 @@
 _id: req_2f055b118e9a4a9e9a4e6133f12387d8
 type: Request
 parentId: wrk_89a942396485450ba9443df531b3823d
-modified: 1742332949922
+modified: 1742333352920
 created: 1741845402685
 url: https://localhost:5002/connect/token
 name: Token Local Iserve
@@ -24,11 +24,11 @@ body:
       description: ""
     - id: pair_70c5ab978e594e4699ec9e30720c950a
       name: client_id
-      value: ""
+      value: "{{ _.client_id }}"
       description: ""
     - id: pair_6b639f43e0c04eac97f7e0e7852cf025
       name: client_secret
-      value: ""
+      value: "{{ _.client_secret }}"
       description: ""
 parameters: []
 headers:
